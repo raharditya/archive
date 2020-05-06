@@ -1,0 +1,65 @@
+<svg id="Group_41" data-name="Group 41" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="896.396" viewBox="0 0 414 896.396">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.964" x2="0.814" y2="0.298" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a1e9"/>
+      <stop offset="1" stop-color="#76caef"/>
+      <stop offset="1" stop-color="#7cccef"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_14" data-name="Rectangle 14" width="414" height="894" fill="#f2f5ff"/>
+  <g id="Group_24" data-name="Group 24" transform="translate(-846 155.808)">
+    <g id="Group_12" data-name="Group 12" transform="translate(890 214.022)">
+      <g id="Group_13" data-name="Group 13" transform="translate(0)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="3.786" cy="3.786" r="3.786" fill="#10516e"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="3.786" cy="3.786" r="3.786" transform="translate(17.352)" fill="#10516e"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="3.786" cy="3.786" r="3.786" transform="translate(34.705)" fill="#10516e"/>
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="3.786" cy="3.786" r="3.786" transform="translate(52.057)" fill="#10516e"/>
+      </g>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(890 232.221)">
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="3.786" cy="3.786" r="3.786" transform="translate(0)" fill="#10516e"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="3.786" cy="3.786" r="3.786" transform="translate(17.352)" fill="#10516e"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="3.786" cy="3.786" r="3.786" transform="translate(34.705)" fill="#10516e"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="3.786" cy="3.786" r="3.786" transform="translate(52.057)" fill="#10516e"/>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(890 250.421)">
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="3.786" cy="3.786" r="3.786" transform="translate(0)" fill="#10516e"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="3.786" cy="3.786" r="3.786" transform="translate(17.352)" fill="#10516e"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" cx="3.786" cy="3.786" r="3.786" transform="translate(34.705)" fill="#10516e"/>
+      <circle id="Ellipse_16" data-name="Ellipse 16" cx="3.786" cy="3.786" r="3.786" transform="translate(52.057)" fill="#10516e"/>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(890 268.62)">
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="3.786" cy="3.786" r="3.786" transform="translate(0)" fill="#10516e"/>
+      <circle id="Ellipse_20" data-name="Ellipse 20" cx="3.786" cy="3.786" r="3.786" transform="translate(17.352)" fill="#10516e"/>
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="3.786" cy="3.786" r="3.786" transform="translate(34.705)" fill="#10516e"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="3.786" cy="3.786" r="3.786" transform="translate(52.057)" fill="#10516e"/>
+    </g>
+  </g>
+  <path id="Path_2" data-name="Path 2" d="M1633.062,437.877s10.781,86.561,210.27,100.118,203.627,96.453,203.627,96.453V977.4H1633Z" transform="translate(-1633 -81)" fill="url(#linear-gradient)"/>
+  <g id="Group_22" data-name="Group 22" transform="translate(76.236 -220.2) rotate(45)">
+    <g id="Ellipse_29" data-name="Ellipse 29" transform="translate(649 678)" fill="none" stroke="#fff" stroke-width="3">
+      <circle cx="14.493" cy="14.493" r="14.493" stroke="none"/>
+      <circle cx="14.493" cy="14.493" r="12.993" fill="none"/>
+    </g>
+    <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(663.466 678.007)" fill="none" stroke="#fff" stroke-width="3">
+      <circle cx="14.493" cy="14.493" r="14.493" stroke="none"/>
+      <circle cx="14.493" cy="14.493" r="12.993" fill="none"/>
+    </g>
+  </g>
+  <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(242 432)" fill="none" stroke="#f2f5ff" stroke-width="10" stroke-dasharray="4">
+    <circle cx="31" cy="31" r="31" stroke="none"/>
+    <circle cx="31" cy="31" r="26" fill="none"/>
+  </g>
+  <g id="Group_38" data-name="Group 38" transform="translate(-1 18)">
+    <g id="Group_15" data-name="Group 15" transform="matrix(0.208, 0.978, -0.978, 0.208, 375.957, 663.794)">
+      <line id="Line_1" data-name="Line 1" y2="24.875" transform="translate(0 0)" fill="none" stroke="#fffcfc" stroke-width="4" stroke-dasharray="2 2"/>
+      <line id="Line_3" data-name="Line 3" x2="21.63" y2="12.618" transform="translate(0 0)" fill="none" stroke="#fffcfc" stroke-width="4" stroke-dasharray="2 2"/>
+      <line id="Line_4" data-name="Line 4" y1="12.257" x2="21.63" transform="translate(0 12.618)" fill="none" stroke="#fffcfc" stroke-width="4" stroke-dasharray="2 2"/>
+    </g>
+    <g id="Group_16" data-name="Group 16" transform="matrix(0.208, 0.978, -0.978, 0.208, 365.543, 673.53)">
+      <line id="Line_1-2" data-name="Line 1" y2="24.875" transform="translate(0 0)" fill="none" stroke="#fffcfc" stroke-width="4" stroke-dasharray="2 2"/>
+      <line id="Line_3-2" data-name="Line 3" x2="21.63" y2="12.618" transform="translate(0 0)" fill="none" stroke="#fffcfc" stroke-width="4" stroke-dasharray="2 2"/>
+      <line id="Line_4-2" data-name="Line 4" y1="12.257" x2="21.63" transform="translate(0 12.618)" fill="none" stroke="#fffcfc" stroke-width="4" stroke-dasharray="2 2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #15262d;
+  overflow-x: hidden;
+}
+
+h3 {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 28px;
+}
+
+p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+a {
+  font-style: italic;
+  /* color: white; */
+}
+
+small {
+  font-style: italic;
+}
+
+footer {
+  margin: 4.5em 0 2em 0;
+  /* padding-bottom: 2em; */
+  text-align: center;
+}
+
+footer p {
+  font-style: unset;
+  font-size: 16px;
+}
+
+footer a {
+  font-style: unset;
+}
+
+.kmap-footer {
+  text-decoration: none;
+}
+
+/* MAIN PAGE */
+
+.front-container {
+  height: 100%;
+  min-width: 1300px;
+}
+
+.front-main {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/main-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+.video-grid{
+  display: grid;
+  height: 100%;
+  align-content: center;
+}
+
+.main-text-1 {
+  position: absolute;
+  top: 5em;
+  left: 10em;
+}
+
+.main-text-2 {
+  position: absolute;
+  bottom: 3em;
+  right: 10em;
+  text-align: end;
+}
+
+.front-sec-wrapper {
+  background-image: url("./assets/sec-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5em;
+}
+
+.front-sec {
+  text-align: center;
+  /* margin: 15em 0; */
+  height: 500px;
+  position: relative;
+}
+
+.front-photos {
+  height: 200px;
+  position: absolute;
+  padding: 1em 1em 4em 1em;
+  background-color: rgb(243, 223, 223);
+  border-radius: 3px;
+}
+
+.sec-text {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  z-index: 10;
+}
+
+.sec-text > a {
+  margin-top: 2em;
+}
+
+.shadow-left {
+  -webkit-box-shadow: -9px 9px 15px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 9px 15px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: -9px 9px 15px -7px rgba(0, 0, 0, 0.75);
+}
+
+.shadow-right {
+  -webkit-box-shadow: 10px -8px 15px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -8px 15px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px -8px 15px -7px rgba(0, 0, 0, 0.75);
+}
+
+.photo-1 {
+  /* KIRI ATAS */
+  top: 0;
+  left: -10px;
+  transform: rotate(11deg);
+}
+
+.photo-2 {
+  /* KANAN ATAS */
+  top: 150px;
+  right: 50px;
+  transform: rotate(5deg);
+}
+
+.photo-3 {
+  /* KIRI BAWAH */
+  bottom: 20px;
+  left: 100px;
+  transform: rotate(3deg);
+}
+
+.photo-4 {
+  /* KANAN BAWAH */
+  bottom: 0px;
+  right: 200px;
+  transform: rotate(-8deg);
+}
+
+.photo-5 {
+  /* KIRI TENGAH */
+  top: 100px;
+  left: 200px;
+  transform: rotate(-4deg);
+}
+
+/* DOCUMENTATION PAGE */
+
+.content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 3em 0;
+  grid-gap: 1em;
+}
+
+.event-img img {
+  height: 200px;
+}
+
+.event-left > .event-img {
+  text-align: end;
+}
+
+.event-right > .event-img {
+  order: 1;
+}
+
+.event-right > .event-detail {
+  text-align: end;
+}
+
+.doc-link {
+  display: block;
+  margin-top: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  /* MAIN PAGE */
+
+  .front-container {
+    min-width: auto;
+  }
+
+  .video-grid{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.2%;
+    margin: 0 auto;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-text-1 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main-text-2 {
+    right: 40px;
+    bottom: 4em;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+  }
+
+  .main-text-1 h3 {
+    font-size: 22px;
+  }
+
+  .main-text-2 h3 {
+    font-size: 22px;
+  }
+
+  .front-sec {
+    height: 900px;
+  }
+
+  .sec-text {
+    padding-top: 50px;
+  }
+
+  .shadow-left {
+    -webkit-box-shadow: -8px -7px 17px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px -7px 17px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: -8px -7px 17px -6px rgba(0, 0, 0, 0.75);
+  }
+
+  .front-photos {
+    height: 180px;
+    padding: 1em 1em 3em 1em;
+  }
+
+  .photo-1 {
+    /* KIRI ATAS */
+    top: 12px;
+    left: -5px;
+    transform: rotate(11deg);
+  }
+
+  .photo-2 {
+    /* KANAN ATAS */
+    top: auto;
+    bottom: 80px;
+    right: 0px;
+    transform: rotate(5deg);
+  }
+
+  .photo-3 {
+    /* KIRI BAWAH */
+    top: 170px;
+    left: -40px;
+    transform: rotate(-8deg);
+  }
+
+  .photo-4 {
+    /* KANAN BAWAH */
+    bottom: 0px;
+    right: 200px;
+    transform: rotate(-8deg);
+  }
+
+  .photo-5 {
+    /* KIRI TENGAH */
+    top: 60px;
+    left: auto;
+    right: -15px;
+    transform: rotate(-3deg);
+  }
+
+  /* DOKUMENTASI */
+
+  .event-img img {
+    width: 100%;
+    height: auto;
+  }
+  .event-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 3.5em;
+  }
+  .event-right > .event-img {
+    order: 0;
+  }
+
+  .event-right > .event-detail {
+    text-align: start;
+  }
+
+  .event-grid {
+    grid-gap: 0.5em;
+  }
+
+  .event-detail h3 {
+    font-size: 24px;
+  }
+}

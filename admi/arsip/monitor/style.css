@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+	background-color: rgb(245, 235, 219);
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.logo-img{
+    width: 20%;
+}
+
+header p{
+    font-size: 18px;
+    margin: 0;
+}
+header h1{
+    margin: 5px 0;
+}
+
+.content-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info-wrapper{
+    background-color: rgb(237, 237, 238);
+    width: 100%;
+}
+
+section{
+    margin-bottom: 2em;
+}
+
+.univ-wrapper{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(223, 225, 226);
+}
+
+.univ-subtitle{
+    margin-bottom: 0;
+}
+
+.univ-title{
+    margin: 0;
+}
+
+.deleg{
+    width: 100px;
+    font-weight: bold;
+}
+
+.col{
+    margin: 0 1em;
+}
+
+.row{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 55px; */
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.row1{
+    margin-top:0;
+}
+.col{
+    margin: 0 10px;
+}
+
+td{
+    border-right: 1px solid black;
+    padding: 1em 5px;
+}
+th{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
