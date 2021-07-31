@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { 
+      "source": "/admi/arsip",
+      "destination": "/admi/arsip/", 
+      "permanent": true
+    }
+  ]
+}
