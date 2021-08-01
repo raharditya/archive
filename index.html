@@ -3,47 +3,159 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adit Raharditya's Web Archive</title>
+    <title>Adit Raharditya's Archive 🗄️</title>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-
-    <style>
-      body {
-        max-width: 500px;
-        margin: auto;
-        text-align: center;
-        font-family: "Roboto", sans-serif;
-      }
-      h2 {
-        padding: 4em 0;
-        font-size: 1.7em;
-      }
-      p {
-        font-size: 1.1em;
-      }
-      li {
-        list-style: none;
-      }
-      a {
-        display: inline-block;
-        padding: 1em 0;
-        width: 100%;
-        border-radius: 10px;
-        border: 1px solid rgb(150, 150, 150);
-      }
-    </style>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <h2>
-      I haven't got the time to build a proper page for this site just yet 😕
-    </h2>
+    <div class="container mx-auto px-16">
+      <h1 class="font-bold text-2xl my-8 text-center">
+        Adit Raharditya's Archive 🗄️
+      </h1>
 
-    <p>Anyway, here are the contents in this subdomain</p>
+      <!-- <ul>
+        <li><a href="./admi/">Temu Admi 2019</a></li>
+      </ul> -->
 
-    <ul>
-      <li><a href="./admi/">Temu Admi 2019</a></li>
-    </ul>
+      <div class="grid grid-cols-1 md:grid-cols-2 items-start gap-10 pb-20">
+        <a href="#">
+          <div
+            class="
+              project-item
+              overflow-hidden
+              rounded-xl
+              shadow-lg
+              hover:shadow-xl
+            "
+          >
+            <div class="overflow-hidden h-64">
+              <img
+                src="./assets/kkn-thumb.jpg"
+                alt=""
+                class="project-thumb w-full"
+              />
+            </div>
+
+            <div class="p-6">
+              <h2 class="text-gray-800 font-bold text-xl mb-2">
+                KKN Covid Jogja
+              </h2>
+
+              <div class="flex mb-6 gap-6">
+                <div class="w-1/2">
+                  <small class="block font-bold text-gray-700"
+                    >Active period:</small
+                  >
+                  <small class="block text-gray-600"
+                    >June 2020 - June 2021</small
+                  >
+                </div>
+
+                <div class="w-1/2">
+                  <small class="block font-bold text-gray-700"
+                    >Original domain:</small
+                  >
+                  <small class="block text-gray-600"
+                    >kkncovidjogja.online</small
+                  >
+                </div>
+              </div>
+
+              <p class="text-gray-700">
+                This is a progressive web app that I made in early 2020 for my
+                Community Service Program in my college, which was done online
+                due to the Covid-19 pandemic. This website aims to educate
+                people about the new pandemic. With that in mind, I designed the
+                outline of what this web app.
+              </p>
+
+              <div
+                class="
+                  py-2
+                  mt-8
+                  border border-gray-600
+                  text-gray-700
+                  rounded-lg
+                  flex
+                  items-center
+                  justify-center
+                  font-bold
+                  project-cta
+                "
+              >
+                Visit
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="/admi/">
+          <div class="project-item overflow-hidden rounded-xl shadow-lg">
+            <div class="overflow-hidden h-64">
+              <img
+                src="./assets/admi-thumb.jpg"
+                alt=""
+                class="project-thumb w-full"
+              />
+            </div>
+
+            <div class="p-6">
+              <h2 class="font-bold text-xl mb-2">Temu AdMI 2019</h2>
+
+              <div class="flex mb-6 gap-6">
+                <div class="w-1/2">
+                  <small class="block font-bold text-gray-700"
+                    >Active period:</small
+                  >
+                  <small class="block text-gray-600">Feb 2019 - Feb 2020</small>
+                </div>
+
+                <div class="w-1/2">
+                  <small class="block font-bold text-gray-700"
+                    >Original domain:</small
+                  >
+                  <small class="block text-gray-600"
+                    >officialtemuadmi.org</small
+                  >
+                </div>
+              </div>
+
+              <p class="text-gray-700">
+                The core of this website was to publish information regarding
+                this event. This information covers teaser videos, event
+                descriptions, event rundown, proceeding, and information about
+                the committee team. This website will also be used by the
+                participants to register their team to join the event.
+              </p>
+
+              <div
+                class="
+                  py-2
+                  mt-8
+                  border border-gray-600
+                  text-gray-700
+                  rounded-lg
+                  flex
+                  items-center
+                  justify-center
+                  font-bold
+                  project-cta
+                "
+              >
+                Visit
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
