@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1.1em;
+}
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+}
+
+.project-item {
+  position: relative;
+  transition: all 150ms ease-in-out;
+
+  .project-cta {
+    background-color: #ffffff;
+    border-color: #5a5a5a;
+    transition: all 150ms ease-in-out;
+  }
+
+  img {
+    filter: brightness(0.8);
+    transition: all 150ms ease-in-out;
+  }
+
+  &:hover {
+    transition: all 150ms ease-in-out;
+
+    img {
+      transform: scale(1.1);
+      filter: brightness(1);
+    }
+
+    .project-cta {
+      background-color: #c2ffd9;
+      border-color: #c2ffd9;
+      transition: all 150ms ease-in-out;
+    }
+
+    transform: translateY(-8px);
+  }
+}

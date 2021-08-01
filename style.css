@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+}
+
+.project-item {
+  position: relative;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.project-item .project-cta {
+  background-color: #ffffff;
+  border-color: #5a5a5a;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.project-item img {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.project-item:hover {
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.project-item:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
+.project-item:hover .project-cta {
+  background-color: #c2ffd9;
+  border-color: #c2ffd9;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
