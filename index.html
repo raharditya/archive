@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <div class="container mx-auto px-16">
+    <div class="container mx-auto px-6 md:px-16">
       <h1 class="font-bold text-2xl my-8 text-center">
         Adit Raharditya's Archive 🗄️
       </h1>
@@ -24,6 +24,59 @@
       <!-- <ul>
         <li><a href="./admi/">Temu Admi 2019</a></li>
       </ul> -->
+      <div
+        class="
+          mt-10
+          mb-16
+          rounded-xl
+          bg-gray-100
+          shadow-xl
+          py-6
+          px-8
+          w-full
+          md:w-4/5
+          mx-auto
+          flex flex-col
+          md:flex-row
+          items-center
+          md:items-start
+          border
+        "
+      >
+        <div
+          class="
+            w-14
+            h-14
+            md:w-16 md:h-16
+            p-3
+            mb-4
+            md:mb-0 md:mr-6
+            rounded-full
+            bg-gray-300
+            flex-shrink-0
+          "
+        >
+          <img src="./assets/info.svg" alt="" class="w-full" />
+        </div>
+        <div class="flex-grow w-full">
+          <h2 class="font-bold text-xl mb-4">About Archived Projects</h2>
+          <p class="mb-4 text-base">
+            Domain names and external APIs get obsolete over time. Some domain
+            names don't make sense to be renewed since they're no longer in use,
+            while some external API are no longer maintained. This is a way for
+            me to preserve them without any constraints from these external
+            factors.
+          </p>
+          <p class="text-base">
+            I have taken a snapshot of every API requests from every projects
+            that requires it and used it as data instead of actually fetching
+            it. The load time are faked to simulate realistic loading time when
+            it was still functional. I only commented on the fetching part
+            instead of deleting it so you can always see how it was originally
+            implemented.
+          </p>
+        </div>
+      </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 items-start gap-10 pb-20">
         <a
@@ -58,9 +111,7 @@
                   <small class="block font-bold text-gray-700"
                     >Active period:</small
                   >
-                  <small class="block text-gray-600"
-                    >June 2020 - June 2021</small
-                  >
+                  <small class="block text-gray-600">Jun 2020 - Jun 2021</small>
                 </div>
 
                 <div class="w-1/2">
@@ -77,8 +128,9 @@
                 This is a progressive web app that I made in early 2020 for my
                 Community Service Program in my college, which was done online
                 due to the Covid-19 pandemic. This website aims to educate
-                people about the new pandemic. With that in mind, I designed the
-                outline of what this web app.
+                people about the new pandemic with information such as news
+                related to the pandemic, total cases, hoax information, as well
+                as relevant articles made by the team.
               </p>
 
               <div
